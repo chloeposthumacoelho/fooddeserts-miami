@@ -101,7 +101,7 @@ p {
 }
 
 .my-name {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   text-align:center;
 }
@@ -117,7 +117,7 @@ a {
 }
 
 h6 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 15px;
   letter-spacing: 0.8px;
   line-height: 1.4;
@@ -200,7 +200,7 @@ body {
 
 .card-title {
   float: left;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: #252525;
   font-size: 20px;
   margin-top: 0;
@@ -210,7 +210,7 @@ body {
 }
 
 .card {
-    background: rgb(224, 224, 224);
+    background: rgb(240, 216, 225);
     width: 400px;
     height: 300px;
     float: left;
@@ -259,7 +259,7 @@ body {
 
 h4 {
   font-size: 18px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h5 {
@@ -423,7 +423,7 @@ h5 {
 }
 
 .arduino-badge {
-  background-color: #ee8610;
+  background-color: #cbf0c0;
   color: #fff;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
@@ -440,7 +440,7 @@ h5 {
 }
 
 .bootstrap-badge {
-  background-color: #d523f8;
+  background-color: #fcf39a;
   color: #fff;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
@@ -474,7 +474,7 @@ h5 {
 }
 
 .json-badge {
-  background-color: #393a33;
+  background-color: #deafd6;
   color: #fff;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
@@ -491,7 +491,7 @@ h5 {
 }
 
 .java-badge {
-  background-color: #1bb4a8;
+  background-color: #e884b0;
   color: #fff;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
@@ -508,7 +508,7 @@ h5 {
 }
 
 .c-badge {
-  background-color: #f3de21;
+  background-color: #a5f0ea;
   color: #fff;
   font-size: 12px;
   font-family: 'Muli', sans-serif;
@@ -580,7 +580,7 @@ h5 {
 }
 
 #skills {
-  background-color: rgb(221, 211, 231);;
+  background-color: rgb(240, 209, 225);;
   color: black;
 }
 
