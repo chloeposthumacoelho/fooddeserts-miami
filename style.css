@@ -20,7 +20,7 @@ html {
 }
 
 .about-me-container {
-  background-color: rgb(233, 226, 240);
+  background-color: rgb(230, 213, 225);
   width: 100%;
   height: 750px;
 }
@@ -28,12 +28,12 @@ html {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgb(192, 178, 206);
+  background-color: rgb(209, 178, 202);
   color: black;
 }
 
 .title {
-  background-color: rgb(221, 211, 231);
+  background-color: rgb(228, 211, 231);
   display: block;
   overflow: hidden;
   width: 100%; 
@@ -45,7 +45,7 @@ html {
 
 .nav-bar-1 {
 
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(235, 216, 226);
   display: block;
   overflow: hidden;
   width: 100%; 
@@ -73,7 +73,7 @@ html {
 
 h2 {
 
-  font-family: 'Sacramento', cursive;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 40px;
 
@@ -81,7 +81,7 @@ h2 {
 
 h3 {
 
-  font-family: 'Sacramento', cursive;
+ font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 30px;
 
