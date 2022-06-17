@@ -7,7 +7,7 @@ html {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
-  font-family: 'Muli', sans-serif;
+font-family: 'Oswald', sans-serif;
   color: #252525;
   background-color: rgb(253, 245, 245);
   text-align: center;
@@ -94,7 +94,7 @@ h3 {
 } */
 
 p {
-  font-family: 'Muli', sans-serif;
+ font-family: 'Oswald', sans-serif;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.4;
@@ -306,7 +306,7 @@ h5 {
   background-color: #e737bb;
   color: #fff;
   font-size: 12px;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 3px;
