@@ -1,825 +1,1673 @@
+/* 
+=====
+=====
+=====
+START OF NAV BAR
+=====
+=====
+=====
+*/
 
-html {
-  scroll-behavior: smooth;
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
 }
 
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: right;
-font-family: 'Oswald', sans-serif;
-  color: #252525;
-  background-color: rgb(253, 245, 245);
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  margin-top: 0px; 
   text-decoration: none;
-  font-size: 17px;
-  margin: 0 auto 0;
-  display: block;
-}
-
-.about-me-container {
-  background-color: rgb(230, 213, 225);
-  width: 100%;
-  height: 750px;
-}
-
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: rgb(209, 178, 202);
-  color: black;
-}
-
-.title {
-  background-color: rgb(228, 211, 231);
-  display: block;
-  overflow: hidden;
-  width: 100%; 
-  padding: 0;
-  margin: 0 auto 0;
-  padding-top: 0px;
-}
-
-
-.nav-bar-1 {
-
-  background-color: rgb(235, 216, 226);
-  display: block;
-  overflow: hidden;
-  width: 100%; 
-  padding: 0;
-  margin: 0 auto 0;
-  padding-top: 0px;
-
-}
-
-.centered-photo-1 {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  height: 20%;
-  padding-bottom: 0;
-}
-
-.picture-name-container {
-
-  padding-bottom: 0;
-  background-color: #e8d7f0;
-
-}
-
-h2 {
-
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 40px;
-
-}
-
-h3 {
-
- font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  font-size: 30px;
-
-}
-
-/* image-container {
-  display: inline-block;
-  align-items: center;
-  padding-right: 0; 
-} */
-
-p {
- font-family: 'Oswald', sans-serif;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.4;
-}
-
-.my-name {
-  font-family: 'Oswald', sans-serif;
-  font-size: 16px;
-  text-align:center;
-}
-
-.paragraph-spacing {
-  font-size: 20px;
-  line-height: 2.4;
-}
-
-a {
-  color: #3b0099; 
-  text-decoration: none;
-}
-
-h6 {
-  font-family: 'Oswald', sans-serif;
   font-size: 15px;
-  letter-spacing: 0.8px;
-  line-height: 1.4;
 }
 
-
-.profile-picture {
-  width: 18%;
-  height: 18%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 80px;
-  padding-left: 60px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  float: left;
-}
-
-.text-box-1-container {
-
-  width: 100%;
-  height: 400px;
-  margin-top: 0;
-  padding-top: 0;
-
-}
-
-.text-box-1 {
-
-
-  justify-content: center;
-  height: 340px;
-  width: 1000px;
-  margin: auto;
-  margin-top: 0;
-  text-align: right;
-  align-items: center;
-  padding-top: 40px;
-  padding-right: 60px;
-  float: right;
-
-}
-
-.mini-text-box {
-
-  text-align: right;
-  width: 1200px;
-  border-width: 2px;
-  padding-top: 80px;
-  padding-left: 100px;
-
-}
-
-
-.about-me-container {
-  vertical-align: middle;
-  background-color: #e8d7f0;
-  width: 100%;
-  height: 620px;
-  padding-bottom:0;
-  margin-bottom:0;
-}
-
-body {
-  background-color: rgb(247, 237, 241);
-}
-
-#aboutme {
-  padding-bottom: 0;
-}
-
-
-.title-box{
-  padding-top: 14px;
-  padding-bottom: 0px;
-  margin-bottom: 15px;
-  margin-top: 3px;
-}
-
-.card-title {
-  float: left;
-  font-family: 'Oswald', sans-serif;
-  color: #252525;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 21px;
-  padding-bottom: 0;
-  margin-bottom: 15px;
-}
-
-.card {
-    background: rgb(240, 216, 225);
-    width: 400px;
-    height: 300px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.card-deck {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1500px;
-  padding-left: 70px;
-  padding-right: 50px;
-  margin-left: 20px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  line-height: 10px;
-  align-content: center;
-}
-
-.card-body {
-  width: 370px;
-  height: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 0px;
-  float: left;
-}
-
-.card-text {
-  float: left;
-}
-
-.card-subtitle {
-  float: left;
-}
-
-.links-box {
-  float: left;
-}
-
-.html-badge {
-  float: left;
-}
-
-h4 {
-  font-size: 18px;
-  font-family: 'Oswald', sans-serif;
-}
-
-h5 {
-  font-size: 16px;
-  font-family: 'Muli', sans-serif;
-}
-
-
-.html-badge {
-    background-color: #f5af93;
-    color: #fff;
-    font-size: 12px;
-    font-family: 'Muli', sans-serif;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 3px;
-    padding-right: 7px;
-    padding-left: 7px;
-    margin-right: 4px;
-    border-radius: 20px;
-    height: 13px;
-    width: 25px;
-    border: 2px solid white;
-}
-
-.javascript-badge {
-  background-color: #775b9b;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 55px;
-  border: 2px solid white;
-}
-
-.css-badge {
-  background-color: #e737bb;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Oswald', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 20px;
-  border: 2px solid white;
-}
-
-.jquery-badge {
-  background-color: #4ce0f3;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 33px;
-  border: 2px solid white;
-}
-
-.figma-badge {
-  background-color: #37e4b0;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 30px;
-  border: 2px solid white;
-}
-
-.python-badge {
-  background-color: #00d4b8;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 40px;
-  border: 2px solid white;
-}
-
-.atom-badge {
-  background-color: #ee1010;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 30px;
-  border: 2px solid white;
-}
-
-.swift-badge {
-  background-color: #000000;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  margin-bottom: 5px;
-  border-radius: 20px;
-  height: 13px;
-  width: 30px;
-  border: 2px solid white;
-}
-
-.xcode-badge {
-  background-color: #1083ee;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 30px;
-  border: 2px solid white;
-}
-
-.arduino-badge {
-  background-color: #cbf0c0;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 55px;
-  border: 2px solid white;
-}
-
-.bootstrap-badge {
-  background-color: #fcf39a;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 53px;
-  border: 2px solid white;
-}
-
-.MIT-badge {
-  background-color: #98b12a;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 93px;
-  border: 2px solid white;
-}
-
-.json-badge {
-  background-color: #deafd6;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 28px;
-  border: 2px solid white;
-}
-
-.java-badge {
-  background-color: #e884b0;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 28px;
-  border: 2px solid white;
-}
-
-.c-badge {
-  background-color: #a5f0ea;
-  color: #fff;
-  font-size: 12px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  padding-top: 5px;
-  padding-bottom: 3px;
-  padding-right: 7px;
-  padding-left: 7px;
-  margin-right: 4px;
-  border-radius: 20px;
-  height: 13px;
-  width: 20px;
-  border: 2px solid white;
-}
-
-.my-techstack {
-  padding-top: 13px;
-  margin-top: 4px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-}
-
-.mytechstack-badges {
-  margin-top: 11px;
-  padding-top: 0px;
-  padding-bottom: 2px;
-}
-
-.languages {
-  padding-right: 8px;
-}
-
-
-.tech-stack {
-
-  padding-top: 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  float: left;
-  width: 350px;
-  height: 20px;
-  margin-top: 0;
-  padding-bottom: 20px;
-
-}
-
-
-.btn-primary {
-    background-color: #898cae;
-    color: #fff;
-    font-size: 17px;
-    font-family: 'Muli', sans-serif;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 8px;
-    padding-left: 8px;
-    margin-right: 4px;
-    border: 2px solid white;
-}
-
-.dreamready-textbox {
-  margin-top: 8px;
-  padding-top: 8px;
-  height: 40px;
-}
-
-#skills {
-  background-color: rgb(240, 209, 225);;
+#navbar a:hover {
+  background-color: #ddd;
   color: black;
 }
 
-#experiences {
-  color:black;
-}
-
-.programming-languages-stack {
-  width: 70%;
-  height: 70%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 10px;
-  padding-left: 0;
-  padding-right: 20px;
-  padding-bottom: 0;
-  margin-bottom: 0;
-  float: center;
-}
-
-.skills-textbox {
-  text-align: center;
-  width: 1430px;
-  height: 200px;
-  padding-right: 300px;
-
-}
-
-.photo-gallery-1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1700px;
-  padding-left: 240px;
-  padding-right: 50px;
-  margin-left: 20px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  line-height: 10px;
-  align-content: center;
-}
-
-.slideshow-title-1 {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 20px;
-  padding-bottom: 40px;
-}
-
-.mySlides {
-  width: 50%;
-}
-
-.w3-button {
-  background-color: #3b0099;
+#navbar a.active {
+  background-color: #509744;
   color: white;
 }
 
+.content {
+  padding: 16px;
+}
 
-#socials {
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*
+=====
+=====
+=====
+END OF NAV BAR
+=====
+=====
+=====
+*/
+
+
+*{/*Universal selector */ 
+    margin:0;
+    padding:0; 
+	width="100%";
+	
+}
+
+
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+
+
+/* 
+Index.html
+*/
+
+.mobile-app-banner {
+    background-image: url(Header.png);
+    background-size: cover;
+    background-position: center; 
+    height: 1000px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+/* The TEXT on the banner section */ 
+.mobile-app-banner-content{
+    color: white; 
+    margin-top: 179px; /*To center the text on the page */
+}
+
+/* heading title */ 
+.mobile-app-banner-content h1{
+    font-size: 70px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.mobile-app-banner-content p{
+    font-size: 25px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+}
+
+.btn {
     display: inline-block;
-    flex-direction: row;
-    justify-content: center;
-    text-align:center;
-    width: 1450px;
-    height: 200px;
-    align-itemb v:center;
-    margin-right: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-}
-
-.social-icons {
-  margin-right: 15px;
-}
-
-.fa {
-    color: #000;
-    font-size: 1.5rem !important;
-    padding: 0.7rem;
-    padding-right: 5px;
+    padding: 6px 12px; /* TR:BL */
+    margin-bottom: 0;
+    font-size: 25px; 
+    font-weight: normal; 
+    line-height: 1.42; 
     text-align: center;
-    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle; /* align text in middle of button */ 
+    cursor: pointer; 
+    user-select: none; 
+    background-image: none; 
+    border: 1px solid transparent; 
+    border-image: 4px; /* circle */ 
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
-
-
-.experiences-card {
-    background: rgb(243, 221, 250);
-    width: 440px;
-    height: 900px;
-    float: left;
-    margin-right: 20px;
+.buttons .btn{
+    padding: 18px 40px; 
     margin-bottom: 20px;
+    margin-right: 13px; 
 }
 
-.experiences-img-container {
-  text-align: center;
-  display: block;
-}
-
-.experiences-card-title {
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  color: #252525;
-  font-size: 20px;
-  margin-top: 0;
-  padding-top: 3px;
-  padding-left: 5px;
-  padding-bottom: 0;
-  margin-bottom: 15px;
-}
-
-.experiences-card-deck {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 1400px;
-  padding-left: 20px;
-  padding-right: 50px;
-  margin-left: 20px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  line-height: 10px;
-  align-content: center;
-}
-
-.experiences-card-body {
-  width: 375px;
-  height: 850px;
-  padding-left: 30px;
-  padding-right: 20px;
-  padding-top: 0px;
-  float: left;
-  line-height: 1.2;
-}
-
-.card-text {
-  float: left;
-}
-
-.card-subtitle {
-  float: left;
-}
-
-.links-box {
-  float: left;
-}
-
-.kwk {
-  margin-bottom: 0;
-  text-align: center;
-  justify-content: center;
+.btn-pink, .btn-blue{
+    background-color: #44904f; 
+    color: white; 
+    font-weight: 600 !important; /* over-ride Bootstrap */ 
+    margin-right: 10px; /* margin between buttons*/
+    font-size: 25px; 
 }
 
 
-.gwc {
-  margin-bottom: 0;
-  text-align: center;
-  justify-content: center;
+/*
+
+END 
+
+*/ 
+
+
+/*
+CSS for icons section on index.html 
+*/ 
+
+.feature-text{
+    padding: 50px; /* spacing between icons */
+    border: 2px solid #9F6C63;
+    background: white;
+    border-radius: 6px; /* circularity */
+    margin-bottom: 30px; 
+    transition: all 0.3s ease-in-out;
 }
 
-.experiences-img-container-1 {
-  text-align: center;
-  margin-top: 90px;
-  margin-bottom: 110px;
-  display: block;
+.feature-text h4{
+    margin: 40px 0px; /*top right, bottom left*/
 }
 
-.puf {
-  margin-bottom: 0;
-  justify-content: center;
-  text-align: center;
-}
-
-h7 {
-
-  font-family: 'Muli', sans-serif;
-  font-style: bold;
-  font-weight: 20px;
-  font-size: 18px;
-  letter-spacing: 0.8px;
-  line-height: 1.4;
-
-}
-
-h8 {
-  font-size: 30px;
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  color: #252525;
-}
-
-.coming-soon {
-  text-align: center;
-  font-family: 'Muli', sans-serif;
-  color: #252525;
-  font-size: 30px;
-  margin-top: 0;
-  padding-top: 80px;
-  padding-left: 5px;
-  padding-bottom: 0;
-  margin-bottom: 15px;
-}
-
-#press {
-  background-color: rgb(221, 211, 231);;
-  color: black;
-  height: 2000px;
-  
-}
-
-.press-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
+.feature-text:hover{
+    border-top: 6px solid #4BB600; 
+    padding-top: 45px;
+    box-shadow: 0 5px 15px /* top, right, bottom */ rgba(0,0,0,0.1); /* transparency */
 }
 
 
-iframe {
-  border-style:none;
-  margin-bottom: 50px;
-  margin-top: 0px;
-  padding-top: 0px;
-  text-align: center;
-  justify-content: center;
-  padding-left: 45px;
+
+
+
+/*
+DesktopIndex.html Top Section 
+*/
+
+.Desktop-app-banner {
+    background-image: url(RedLogs.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
 }
 
-.press-title {
-  text-align:center;
+/* The TEXT on the banner section */ 
+.Desktop-app-banner-content{
+    color: white; 
+    margin-top: 300px; /*To center the text on the page */
 }
+
+/* heading title */ 
+.Desktop-app-banner-content h1{
+    font-size: 80px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.Desktop-app-banner-content p{
+    font-size: 22px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+}
+
+#WelcomeDesktopIndex {
+	background-color: white;
+	 border: 3px solid black;
+	 font-family: monospace;
+	 color: black;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	font-size: 17px; 
+}
+
+/* 
+=============
+=============
+=============
+
+=============
+DesktopIndex.html middle section 
+=============
+=============
+=============
+=============
+=============
+*/ 
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #0f0544; /* Navy */
+}
+
+/* 
+=====
+=====
+=====
+TEXT
+=====
+=====
+=====
+*/
+
+#box1,#box2{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    top:140%; /* "Palm" and the background animation distance from top of page */ 
+    margin-left: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+#box2{
+    top:152.5%; /*"Oil" and background animation distance from top of page */ 
+}
+
+.colorLayer{
+    height: 100px;
+    width: 400px;
+	top: 150%
+    background-color:#0abd38; /* DARK green background colour behind 'palm' */
+    position: absolute;
+    left: -660px;
+    z-index: 9;
+}
+
+/* box2 area */
+
+#box2 .colorLayer{
+    background-color:#d3fbb1; /* LIGHT green background colour behind 'oil' */
+}
+
+.title{
+    font-size: 4.5em;
+    color:white;
+    line-height: 90px;
+    position: absolute;
+    left: -660px;
+    z-index: 1;
+}
+
+/* 
+====
+====
+====
+FIRST IMAGE
+====
+====
+====
+*/
+
+#box3{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:220%; /* FIRST PICTURE AND BACKGROUND ANIMATION distance from top of the page */
+    margin-left:200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+
+/* background area of first image */
+.colorLayer2{
+    height: 450px;
+    width:850px;
+    background-color:#a1b7f8; /* LIGHT PURPLE background colour square behind the image */
+    position: absolute;
+	top: 220%;
+    left: -850px;
+    z-index: 9;
+}
+.image img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* 
+====
+====
+====
+FIRST INFORMATION BOX 
+====
+====
+====
+*/
+
+
+
+#box4{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top:230%; /* FIRST INFORMATION BOX: distance from top of page */ 
+    right: 0%;
+    margin-right:300px; 
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+/* Animation colour change block under where text block is */
+
+.colorLayer3{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation*/
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* very pale (almost white) green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+h2{
+    font-family: arial;
+    border: 3px solid black;
+    padding: 5px;
+    text-align: center;
+}
+.btnB{
+    height: 35px;
+    width: 150px;
+    background-color: #201E1F;
+    font-family: arial;
+    font-size: 11px;
+    color:white;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btnB a{
+	color: white;
+}
+
+/*
+========
+========
+========
+Section Section 
+========
+========
+========
+*/ 
+ 
+
+
+
+
+#box5{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:320%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+#box6{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top:330%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer4{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image2 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+.colorLayer5{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info2{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+/* 
+=====
+=====
+=====
+Third section 
+=====
+=====
+=====
+*/ 
+
+/* image area */ 
+
+#box7{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:420%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer6{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image3 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box8{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top:430%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer7{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info3{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+/* 
+=====
+=====
+=====
+End of Third section 
+=====
+=====
+=====
+*/ 
+
+
+
+
+
+/* 
+=====
+=====
+=====
+Fourth section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* image area */ 
+
+#box9{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:520%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer8{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image4 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box10{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top:530%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer9{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info4{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+
+
+
+/* 
+=====
+=====
+=====
+End of Fourth section 
+=====
+=====
+=====
+*/ 
+
+
+/* 
+=====
+=====
+=====
+Fifth section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* image area */ 
+
+#box11{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top:620%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer10{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image5 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box12{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top:630%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer11{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info5{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+
+
+
+/* 
+=====
+=====
+=====
+End of Fifth section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* 
+=====
+=====
+=====
+Sixth section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* image area */ 
+
+#box13{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top: 720%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer12{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image6 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box14{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 730%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer13{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info6{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+
+
+
+/* 
+=====
+=====
+=====
+End of Sixth section 
+=====
+=====
+=====
+*/ 
+
+
+
+
+
+
+/* 
+=====
+=====
+=====
+Seventh section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* image area */ 
+
+#box15{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top: 820%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer14{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image7 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box16{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 830%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer15{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info7{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+
+
+
+/* 
+=====
+=====
+=====
+End of Seventh section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* 
+=====
+=====
+=====
+Eighth section 
+=====
+=====
+=====
+*/ 
+
+
+
+/* image area */ 
+
+#box17{
+    height: 650px;
+    width: 850px;
+    position: absolute;
+    top: 920%; /* Distance from top of page */   
+    margin-left: 200px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer16{
+    height: 450px;
+    width:850px;
+    background-color:#7192f4; /* DARK PURPLE background colour square behind the image */
+    position: absolute;
+    left: -850px;
+    z-index: 9;
+}
+
+.image8 img{
+    height: 450px;
+    width: 850px;
+    position: absolute;
+    left: -850px;
+    z-index: 1;
+}
+
+/* Text area */ 
+
+#box18{
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    top: 930%;
+    right: 0%;
+    margin-right: 300px;
+    transform: translateY(-50%);
+    overflow: hidden;
+}
+
+.colorLayer17{
+    height: 450px;
+    width: 450px;
+    background-color:#d3fbb1; /* LIGHT green colour change animation under "Arguments Opposing Palm Oil" */
+    position: absolute;
+    left: -400px;
+    z-index: 9;
+}
+
+.info8{
+    height: 450px;
+    width: 450px;
+    font-family: monospace;
+    font-size: 15px;
+    color:#2D2D2D; /* Colour of text */
+    padding: 40px;
+    text-align: justify;
+    background-color: #fafef8; /* PALE green background colour of text area */
+    position: absolute;
+    left: -420px;
+    z-index: 1;
+}
+
+
+
+
+/* 
+=====
+=====
+=====
+End of Eighth section 
+=====
+=====
+=====
+*/ 
+
+.Brands img{
+	padding: 10px 10px; 
+	margin-bottom: 25px;
+}
+
+
+
+
+/*
+====
+====
+Start of MassDeforestation 
+====
+====
+*/ 
+
+/*
+MassDeforestation.html Top Section 
+*/
+
+.MassDeforestation-app-banner {
+    background-image: url(MassDeforestationHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+
+/*
+MassDeforestation.html Top Section 
+*/
+
+.MassDeforestation-app-banner {
+    background-image: url(MassDeforestationHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+/* The TEXT on the banner section */ 
+.Desktop-app-banner-content{
+    color: white; 
+    margin-top: 300px; /*To center the text on the page */
+}
+
+/* heading title */ 
+.Desktop-app-banner-content h1{
+    font-size: 80px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.Desktop-app-banner-content p{
+    font-size: 22px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+}
+
+#WelcomeDesktopIndex {
+	background-color: white;
+	 border: 3px solid black;
+	 font-family: monospace;
+	 color: black;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	font-size: 17px; 
+}
+
+#WelcomeDeforestation {
+		background-color: white;
+		border: 3px solid black;
+		font-family: monospace;
+		color: black;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 80px;
+		font-size: 17px; 
+}	
+
+
+/*
+======
+======
+END OF HEADER
+======
+======
+======
+*/ 
+
+
+/* Video section */ 
+
+.embed-responsive-10by3 {
+   padding-top: 30%;
+}
+
+
+/*
+====
+====
+End of MassDeforestation 
+====
+====
+*/ 
+
+
+
+
+/*
+=====
+=====
+Start of CarbonPollution.html
+=====
+=====
+*/ 
+
+.CarbonPollution-app-banner {
+    background-image: url(CarbonPollutionHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+/* The TEXT on the banner section */ 
+.CarbonPollution-app-banner-content{
+    color: white; 
+    margin-top: 300px; /*To center the text on the page */
+}
+
+/* heading title */ 
+.CarbonPollution-app-banner-content h1{
+    font-size: 80px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.Desktop-app-banner-content p{
+    font-size: 22px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+}
+
+#text {
+	background-color: white;
+	 border: 3px solid black;
+	 font-family: monospace;
+	 color: black;
+	padding-top: 50px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	padding-left: 80px;
+	font-size: 17px; 
+	margin: 100px 100px
+}
+
+#text a{
+    color: #4f9738;
+}
+
+#WelcomeCarbonPollution {
+		background-color: white;
+		border: 3px solid black;
+		font-family: monospace;
+		color: black;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 80px;
+		font-size: 17px; 
+}	
+
+
+/* 
+====
+====
+====
+Alternatives header
+====
+====
+====
+*/ 
+
+
+.Alternatives-app-banner {
+    background-image: url(AlternativesHeader.jpeg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+/* Start of Footer Code */ 
+
+
+
+a{
+	text-decoration: none; 
+	outline: none; 
+}
+
+
+
+.footer-main-div{
+	width: 100%;
+	height: auto; 
+	margin: auto; 
+	background: #239456;
+	padding: 20px 0px; 
+}
+
+.footer-social-icons{
+	width: 100%; 
+	height: auto; 
+	margin: auto; 
+}
+
+.footer-social-icons ul{
+	margin: 0px;
+	padding: 0px; 
+	text-align: center; 
+}
+
+.footer-social-icons ul li{
+	display: inline-block; 
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px; 
+	border-radius: 100%; 
+	background: black; 
+}
+
+.footer-social-icons ul li a{
+	color: white; 
+	font-size: 25px; 
+	display: block; 
+}
+
+.footer-social-icons ul li a i{
+	line-height: 50px; 
+}
+
+.footer-social-icons ul li:hover{
+	background: #d274dc;
+}
+
+.footer-social-icons ul li:hover a{
+	color: #86d8fd; 
+}
+
+.footer-menu-one{
+	width: 100%; 
+	height: auto; 
+	margin: auto; 
+	margin-top: 25px; 
+}
+
+.footer-menu-one ul{
+	margin: 0px;
+	padding: 0px; 
+	text-align: center; 
+}
+
+.footer-menu-one ul li{
+	display: inline-block; 
+	margin: 0px 20px; 
+}
+
+.footer-menu-one ul li a{
+    font-family: 'Playfair Display', serif;
+	font-size: 16px; 
+	font-weight: 600; 
+	color: white; 
+}
+
+.footer-menu-one ul li a:hover{
+	color: #d274dc; 
+}
+
+
+/* */ 
+
+.footer-menu-two{
+	width: 100%; 
+	height: auto; 
+	margin: auto; 
+	margin-top: 30px; 
+}
+
+.footer-menu-two ul{
+	margin: 0px;
+	padding: 0px; 
+	text-align: center; 
+}
+
+.footer-menu-two ul li{
+	display: inline-block; 
+	margin: 0px 20px; 
+}
+
+.footer-menu-two ul li a{
+    font-family: 'Playfair Display', serif;
+	font-size: 16px; 
+	font-weight: 600; 
+	color: white; 
+}
+
+.footer-menu-two ul li a:hover{
+	color: #d274dc; 
+}
+
+.footer-bottom{
+	width: 100%;
+	height: auto: 
+	margin: auto; 
+	background: #1c6e42;
+	padding: 3px; 
+}
+
+.footer-bottom p{
+    font-family: 'Playfair Display', serif;
+	font-size: 15px; 
+	text-align: center; 
+	color: white; 
+	font-weight: 600; 
+	letter-spacing: 1.5px; 
+}
+
+.footer-bottom p a{
+	color: #d274dc; 
+	font-family: arial; 
+	font-size: 15px; 
+}
+
+.footer-bottom p a:hover{
+	color: white; 
+}
+
+
+
+/* End of Footer Code */ 
+
+
+
+/* Red Heading */
+
+#heading {
+	color: #d6245c;
+}
+
+#heading2 {
+	color: #4550a8;
+    font-weight: 600;
+}
+
+/* Second carbon pollution section */ 
+
+.CarbonPollutionSecond-app-banner {
+    background-image: url(WhatIsPalmOilHeader.jpeg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+.WhatCan-app-banner {
+    background-image: url(WhatHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+.Bibliography-app-banner {
+    background-image: url(BibliographyHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+.ContactUs-app-banner {
+    background-image: url(ContactUsHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+/* contact form */ 
+
+
+
+
+.contact-section {
+	background-color: #7dd882;
+	background-size: cover; 
+	padding: 40px 0;
+}
+
+.contact-section h1{ 
+	text-align: center; 
+	color: white;
+}
+
+.border {
+	width: 100px; 
+	height: 10px; 
+	background: #6db66d;
+	margin: 40px auto;
+}
+
+.contact-form{
+	max-width: 600px; 
+	margin: auto;
+	padding: 0 10px;
+	overflow: hidden; 
+}
+
+.contact-form-text{
+	display: block; 
+	width: 100%;
+	box-sizing: border-box; 
+	margin: 16px 0; 
+	border: 0px; 
+	background: #111; 
+	padding: 20px 40px; 
+	color: white;
+	transition: 0.5s; 
+}
+
+.contact-form-text:focus{
+	box-shadow: 0 0 10px 4px #819ab6; 
+}
+
+textarea.contact-form-text{
+	resize: none; 
+	geight: 120px; 
+}
+
+.contact-form-btn{
+	float: right; 
+	border: 0; 
+	background: #34495e;
+	color: white; 
+	padding: 12px 50px;
+	border-radius: 20px; 
+	cursor: pointer; 
+	transition: 0.5s; 
+}
+
+.contact-form-btn:hover{ 
+	background: #2980b9; 
+}
+
+/* end of contact form */ 
+
+
+.Indigenous-app-banner {
+    background-image: url(IndigenousHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+.RareAnimals-app-banner {
+    background-image: url(RareAnimalsHeader.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+
+/* The TEXT on the banner section */ 
+.CarbonPollution-app-banner-content{
+    color: white; 
+    margin-top: 300px; /*To center the text on the page */
+}
+
+/* heading title */ 
+.CarbonPollutionSecond-app-banner-content h1{
+    font-size: 80px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.CarbonPollutionSecond-app-banner-content p{
+    font-size: 22px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+
+
+	
+
+
+/*
+==========
+==========
+==========
+Start of "What is Palm Oil?" Section 
+=========
+=========
+=========
+*/ 
+
+#WelcomeWhatIsPalmOil {
+		background-color: white;
+		border: 3px solid black;
+		font-family: monospace;
+		color: black;
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 50px;
+		padding-left: 80px;
+		font-size: 17px; 
+}	
+
+.What-app-banner {
+    background-image: url(CarbonPollution8.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: 920px;
+    background-repeat: no-repeat; /* to stop repeating*/
+}
+
+
+/* The TEXT on the banner section */ 
+.What-app-banner-content{
+    color: white; 
+    margin-top: 300px; /*To center the text on the page */
+}
+
+/* heading title */ 
+.What-app-banner-content h1{
+    font-size: 80px; 
+    color: white; 
+    font-weight: 600px; 
+}
+
+/* paragraph */ 
+.What-app-banner-content p{
+    font-size: 22px;
+    color: white; 
+    line-height: 40px; /* spacing */
+    margin: 30px 0px; 
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/* Video section */ 
+
+.after, .before {
+    height:50px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div, section {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#banner {
+    position: relative;
+    height:300px;
+    width:100%;
+    overflow: hidden;
+	background-size: cover; 
+	background-position: center;
+	height: 920px; 
+	background-repeat: no-repeat;
+}
+
+#videobcg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    height:auto;
+    width:auto;
+    z-index: -100;
+}
+
+	/* end of video section */ 
+
+
+	/* Interactive image gallery */ 
+.CarbonPollutionGallery a img {
+	height: 35%
+	width: 30%
+}
+
+.CarbonPollutionGallery a {
+	text-decoration: none;
+	outline: none;
+	
+}
+
+/* End of interactive image gallery */ 
+
+
+
+
+
+
+
+/*
+====
+====
+End of CarbonPollution.html!!!
+====
+====
+*/ 
 
 
 
