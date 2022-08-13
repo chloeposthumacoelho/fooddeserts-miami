@@ -41,15 +41,13 @@
 	<!-- adapted from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_navbar_sticky -->
 	
 	 <div id="navbar">
-		<a class="active" href="javascript:void(0)">Miami's food deserts</a> 
-		<a href="WhatIsPalmOil.html" "javascript:void(0)">What are food deserts?</a>
-		<a href="MassDeforestation.html" "javascript:void(0)">Food desert hotspots in Miami-Dade</a>
-		<a href="CarbonPollution.html" "javascript:void(0)">Why are food deserts prevalent?</a><!-- For page currently on --> 
+		
+		<a class="active" href="javascript:void(0)">Miami's food deserts</a> <!-- For page currently on --> 
+		<a href="whatfooddeserts.html" "javascript:void(0)">What are food deserts?</a>
+		<a href="fooddeserts.html" "javascript:void(0)">Food desert hotspots in Miami-Dade</a>
+		<a href="whyfooddeserts.html" "javascript:void(0)">Why are food deserts prevalent?</a>
 	
-		<a href="ContactUs.html" "javascript:void(0)">Mapping food deserts</a>
-		<a href="AreAlternativesTheAnswer.html" "javascript:void(0)">food desert fighters</a>
-	
-		<a href="Publications.html" "javascript:void(0)">Bibliography</a>
+		<a href="foodmap.html" "javascript:void(0)">Mapping food deserts</a>
 	</div>
 	
 
