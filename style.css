@@ -189,7 +189,7 @@ DesktopIndex.html Top Section
 
 /* The TEXT on the banner section */ 
 .Desktop-app-banner-content{
-    color: white; 
+    color: black; 
     margin-top: 300px; /*To center the text on the page */
 }
 
