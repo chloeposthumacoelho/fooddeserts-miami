@@ -196,14 +196,14 @@ DesktopIndex.html Top Section
 /* heading title */ 
 .Desktop-app-banner-content h1{
     font-size: 80px; 
-    color: white; 
+    color: black; 
     font-weight: 600px; 
 }
 
 /* paragraph */ 
 .Desktop-app-banner-content p{
     font-size: 22px;
-    color: white; 
+    color: black; 
     line-height: 40px; /* spacing */
     margin: 30px 0px; 
 }
@@ -1070,21 +1070,21 @@ MassDeforestation.html Top Section
 
 /* The TEXT on the banner section */ 
 .Desktop-app-banner-content{
-    color: white; 
+    color: black; 
     margin-top: 300px; /*To center the text on the page */
 }
 
 /* heading title */ 
 .Desktop-app-banner-content h1{
     font-size: 80px; 
-    color: white; 
+    color: black; 
     font-weight: 600px; 
 }
 
 /* paragraph */ 
 .Desktop-app-banner-content p{
     font-size: 22px;
-    color: white; 
+    color: black; 
     line-height: 40px; /* spacing */
     margin: 30px 0px; 
 }
