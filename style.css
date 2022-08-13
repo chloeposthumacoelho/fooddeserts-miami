@@ -1160,21 +1160,21 @@ Start of CarbonPollution.html
 
 /* The TEXT on the banner section */ 
 .CarbonPollution-app-banner-content{
-    color: white; 
+    color: black; 
     margin-top: 300px; /*To center the text on the page */
 }
 
 /* heading title */ 
 .CarbonPollution-app-banner-content h1{
     font-size: 80px; 
-    color: white; 
+    color: black; 
     font-weight: 600px; 
 }
 
 /* paragraph */ 
 .Desktop-app-banner-content p{
     font-size: 22px;
-    color: white; 
+    color: black; 
     line-height: 40px; /* spacing */
     margin: 30px 0px; 
 }
